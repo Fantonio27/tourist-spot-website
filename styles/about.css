@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Rowdies:wght@300&family=Varela+Round&display=swap');
+
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', serif;
+}
+
+.about-main {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-main::-webkit-scrollbar {
+    display: none;
+}
+
+.about-main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.about-header {
+    height: 100vh;
+    /* background-image: url('../resources/images/About/tokyo.jpg'); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.about-content-header {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-title {
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 120px;
+    position: relative;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+
+}
+
+.about-subtitle {
+    color: #e44713;
+    font-family: 'Poppins', cursive;
+    font-size: 24px;
+    position: relative;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-countries {
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.about-arrow {
+    border: solid rgba(255, 255, 255, 0.927);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.about-group-arrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-mouse {
+    width: 20px;
+    height: 40px;
+    border: 3px solid whitesmoke;
+    border-radius: 60px;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: whitesmoke;
+        border-radius: 50%;
+        opacity: 1;
+        animation: wheel 1.3s infinite;
+        -webkit-animation: wheel 1.3s infinite;
+    }
+}
+
+@keyframes wheel {
+    to {
+        opacity: 0;
+        top: 20px;
+    }
+}
+
+@-webkit-keyframes wheel {
+    to {
+        opacity: 0;
+        top: 60px;
+    }
+}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: #f8f0e591;
+}
+
+.about-content>div {
+    width: 60%;
+    margin-bottom: 120px;
+}
+
+/* About */
+.about-content-div1>div:first-child {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.about-content-div1 p:last-child {
+    flex: 60%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.about-content-div1 p:first-child {
+    /* align-self: center; */
+    flex: 40%;
+}
+
+.about-content-div1 p:nth-child(1) {
+    color: #e44713;
+    font-size: 36px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+
+/* History */
+
+.about-content-div2 {
+    display: flex;
+    gap: 40px;
+}
+
+.about-img-1 {
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.about-p1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e44713;
+}
+
+.about-p2 {
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: #343a40;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+.about-p3 {
+    font-size: 15px;
+    margin: 15px 0px 0px;
+    text-align: justify;
+}
+
+.about-line {
+    width: 50px;
+    height: 3px;
+    background-color: #e44713;
+    border-radius: 50px;
+}
+
+.about-history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px 25px;
+    border-left: 0px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* Activity */
+.about-activity-div {
+    display: flex;
+    gap: 10px;
+}
+
+.about-activity-div>div {
+    width: 25%;
+    height: 380px;
+    border: 1px solid white;
+    background-image: url('/resources/images/history2.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.about-activity-p1 {
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #e44713;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.about-activity-p2 {
+    font-size: 15px;
+    margin: 20px 0px 30px;
+    width: 80%;
+}
+
+.about-activity-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    transition: 0.5s ease;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.activity-p1 {
+    color: #343a40;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.activity-p2 {
+    transition: 2s;
+}
+
+.hover-box {
+    width: 80%;
+    height: 100%;
+    transition: 1s ease;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+}
+
+.dark-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.about-activity-div>div>div:hover .hover-box {
+    height: 100%;
+    opacity: 1;
+}
+
+.about-activity-div>div:hover .dark-bg {
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.511), rgba(255, 255, 255, 0.083)); */
+    opacity: 1;
+}
+
+/* Travel Tips */
+.about-content-div4 {
+    background-color: red;
+}
+
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    padding: 10px;
+    border: 0px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.back-button:hover {
+    margin: 15px 5px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/about.css">
+</head>
+
+<body>
+    <div id="main" class="main">
+        <header class="header">
+            <div class="content-header">
+                <h1 class="title">Mount Fuji</h1>
+                <button id="scsac">vdsvdv</button>
+            </div>
+        </header>
+        <div class="content">
+            csc
+        </div>
+    </div>
+    <script>
+        const body = document.querySelector('#main');
+        const button = document.getElementById('scsac');
+        
+        var rootElement = document.documentElement;
+        // body.addEventListener('scroll', (event) =>{
+        //     if(body.scrollTop < 200 && body.scrollTop > 100 ){
+        //         body.scrollTo({
+        //         top:1000,
+        //         behavior: 'smooth'
+        //     })
+        //     }
+
+        //     console.log(body.scrollTop)
+        //     // if (window.scrollY > this.lastScrollTop || 0) {
+        //     //     body.scrollTop +=1000
+        //     //     console.log('casc')
+        //     // } else if (window.scrollY < this.lastScrollTop) {
+        //     //     // rootElement.scrollTo({
+        //     //     //     top: 0,
+        //     //     //     behavior: "smooth"
+        //     //     // });
+        //     // }
+
+        //     // this.lastScrollTop = window.scrollY;
+
+        // });
+        button.addEventListener('click', ()=>{
+            body.scrollTo({
+                top:1000,
+                behavior: 'smooth'
+            })
+            
+        })
+    </script>
+</body>
+
+</html>
