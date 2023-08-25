@@ -4,10 +4,10 @@ export default {
         {
             tourist: "Mount Fuji",
             country: "Japan",
-            description: 'Japan, often called the "Land of the Rising Sun, " is an island nation in East Asia that seamlessly blends ancient traditions with cutting - edge modernity.Its diverse landscapes, from towering  to vibrant cherry blossoms in spring, provide a breathtaking backdrop to a rich cultural heritage encompassing tea ceremonies, sumptuous cuisine like sushi and ramen, and an unwavering commitment to hospitality.From the serenity of countryside onsens to the bustling energy of Tokyo, Japan ' + "'s unique fusion of tradition and innovation makes it a mesmerizing destination for travelers worldwide.",
+            description: 'Japan, often called the "Land of the Rising Sun", is an island nation in East Asia that seamlessly blends ancient traditions with cutting edge modernity. Its diverse landscapes, from towering  to vibrant cherry blossoms in spring, provide a breathtaking backdrop to a rich cultural heritage encompassing tea ceremonies, sumptuous cuisine like sushi and ramen, and an unwavering commitment to hospitality.From the serenity of countryside onsens to the bustling energy of Tokyo, Japan' + "'s unique fusion of tradition and innovation makes it a mesmerizing destination for travelers worldwide.",
             background: "japan.jpg",
             about: {
-                explore: ", Japan's iconic and majestic volcano, stands as a symbol of both natural beauty and cultural significance, captivating visitors with its snow-capped peak and serene surroundings. Its graceful silhouette against the skyline and its role as a source of inspiration for artists and writers make it a must-see destination for travelers seeking a blend of awe-inspiring landscapes and Japanese heritage.",
+                explore: "Japan's iconic and majestic volcano, stands as a symbol of both natural beauty and cultural significance, captivating visitors with its snow-capped peak and serene surroundings. Its graceful silhouette against the skyline and its role as a source of inspiration for artists and writers make it a must-see destination for travelers seeking a blend of awe-inspiring landscapes and Japanese heritage.",
                 link: "",
                 history: "Formed approximately 100,000 years ago, repeated volcanic eruptions gradually transformed Mt. Fuji into the largest mountain in Japan, at 3,776 meters tall. The last eruption in 1707 lasted for 16 days, with volcanic ash reaching as far as Tokyo. Volcanic activity is also responsible for creating Hoeizan (one of Fuji's secondary peaks), the five lakes at the mountain's base, and numerous caves near Aokigahara Forest. The area is also blessed with many mineral-rich hot springs, making the region a paradise for both outdoor recreation and relaxation.Over the centuries, the Japanese have forged a spiritual bond with the mountain. Legend has it that notable religious ascetic Hasegawa Kakugyo (1541–1646) summited the mountain over 100 times. His feats led to the formation of Fuji-ko, a group of likeminded Mt. Fuji worshippers. The sect built shrines, created rock monuments, and fasted to show their dedication.",
                 picture: "japan.jpg",
@@ -43,15 +43,15 @@ export default {
             description: 'Boracay boasts pristine white sand beaches and smaller islands, breathtaking sunsets, fun water activities, top-notch resorts in Boracay (including hotels in Boracay for family), and a booming nightlife, making it one of the best Visayas tourist spots and top tourist destinations in the Philippines.',
             background: "",
             about: {
-                explore: "Boracay has an idyllic combination of sun, sand and sea for your holiday. Powdery white-sand beaches and tranquil turquoise water surround this paradise on earth. It also has a fantastic nightlife scene, so there’s something to enjoy at any hour of the day or night.Located in the West Visayas Region, Boracay is one of the islands of the province of Aklan, in the centre of the Philippines. Only about 7 km long and 1 km wide, the island has over 300 resorts and hotels ranging from budget to upscale. There's a massive variety of dining choices, bars, and surprising attractions for any budget. Getting around is also easy and affordable, making it a fantastic, self-contained spot for your next beach holiday.",
+                explore: "The name Boracay is attributed to different origins. The island'" + 's indigenous Ati people say that the name of the island came from the Inati words "bora", meaning bubbles, and "bocay", meaning white.Another theory says that the name is derived from the local word "borac" which means "white cotton," a reference to the color and texture of Boracay' + 's white sugary and powdery sand. Yet another version dating back to the Spanish era says the name is derived from "sagay", the word for a shell, and "boray", the word for seed.',
                 link: "",
-                history: "The name Boracay is attributed to different origins. The island'" + 's indigenous Ati people say that the name of the island came from the Inati words "bora", meaning bubbles, and "bocay", meaning white.Another theory says that the name is derived from the local word "borac" which means "white cotton," a reference to the color and texture of Boracay' + 's white sugary and powdery sand. Yet another version dating back to the Spanish era says the name is derived from "sagay", the word for a shell, and "boray", the word for seed.',
+                history: "Boracay has an idyllic combination of sun, sand and sea for your holiday. Powdery white-sand beaches and tranquil turquoise water surround this paradise on earth. It also has a fantastic nightlife scene, so there’s something to enjoy at any hour of the day or night.Located in the West Visayas Region, Boracay is one of the islands of the province of Aklan, in the centre of the Philippines. Only about 7 km long and 1 km wide, the island has over 300 resorts and hotels ranging from budget to upscale. There's a massive variety of dining choices, bars, and surprising attractions for any budget. Getting around is also easy and affordable, making it a fantastic, self-contained spot for your next beach holiday.",
                 picture: "",
             },
             activities: [
                 {
                     name: "Crystal Cove Island",
-                    description: 'Crystal Cove Island (aka Lauren Island) is a private islet located a 10-minute boat ride southeast of Boracay Island. Locally known as Tigwatian Island, Crystal Cove owes its name to the splendid coral reefs that lie beneath the crystal-clear waters that surround it. Daytrips to Crystal Cove are available from Boracay, which gives you the possibility of enjoying yourself with a good choice of leisurely fun on the island. These activities include trekking, caves exploration, snorkelling, pigeon feeding and more.',
+                    description: 'Crystal Cove Island (aka Lauren Island) is a private islet located a 10-minute boat ride southeast of Boracay Island. Locally known as Tigwatian Island, Crystal Cove owes its name to the splendid coral reefs that lie beneath the crystal-clear waters that surround it.',
                     images: "",
                 },
                 {
@@ -75,33 +75,33 @@ export default {
         italy: {
             tourist: "Colosseum Rome ",
             country: "Italy",
-            description: 'The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age.',
+            description: 'The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. It was used for gladiatorial contests and public spectacles including animal hunts, executions, re-enactments of famous battles, and dramas based on Roman mythology, and briefly mock sea battles. ',
             background: "",
             about: {
-                explore: "The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.",
+                explore: "The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.  The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.",
                 link: "",
-                history: 'When the Colosseum first opened, the emperor Titus celebrated with a hundred days of gladiatorial games. Emperors traditionally attended the games. The emperor Commodus is known to have performed in the arena on hundreds of occasions. Aside from the games, the Colosseum also hosted dramas, reenactments, and even public executions.',
+                history: 'The name Colosseum is believed to be derived from a colossal statue of Nero on the model of the Colossus of Rhodes. The giant bronze sculpture of Nero as a solar deity was moved to its position beside the amphitheatre by the emperor Hadrian (r. 117–138). The word colosseum is a neuter Latin noun formed from the adjective colosseus, meaning "gigantic" or "colossean". By the year 1000 the Latin name "Colosseum" had been coined to refer to the amphitheatre from the nearby "Colossus Solis". When the Colosseum first opened, the emperor Titus celebrated with a hundred days of gladiatorial games. Emperors traditionally attended the games. The emperor Commodus is known to have performed in the arena on hundreds of occasions. Aside from the games, the Colosseum also hosted dramas, reenactments, and even public executions.',
                 picture: "",
             },
             activities: [
                 {
                     name: "Pantheon",
-                    description: "Built in 125 AD by Emperor Hadrian, the Pantheon is one of the best preserved buildings from ancient times. Its dome, measuring 142 feet in diameter, is the largest in the whole world. This is a must-see in Rome, and if you’re heading to the city during Pentecost weekend, you’re in for a treat – during Sunday Mass, tons of rose petals get dropped from the oculus to mark the occasion, and the sight is really something. At the time of publishing (May 2023), the Pantheon is free to enter, but there are plans to charge a €5 entry fee for visitors.",
+                    description: "Built in 125 AD by Emperor Hadrian, the Pantheon is one of the best preserved buildings from ancient times. Its dome, measuring 142 feet in diameter, is the largest in the whole world.",
                     images: "",
                 },
                 {
                     name: "Capitoline Museums",
-                    description: "The Capitoline Museums are set across three buildings in Piazza del Campidoglio, a trapezoidal piazza designed by Michelangelo in the 16th century. Considered the first public museums in the world, they are home to Renaissance marble statues and Roman bronzes such as the Equestrian statue of Marcus Aurelius and the Capitoline Wolf, which symbolizes the founding of Rome. The museum also provides an excellent view of the Roman Forum from the Galleria Lapidaria, an underground tunnel that connects the two main buildings. Plan to spend a few hours exploring the collection and don’t miss a visit to the secret garden in Piazzale Caffarelli, tucked just behind the piazza.",
+                    description: "The Capitoline Museums are set across three buildings in Piazza del Campidoglio, a trapezoidal piazza designed by Michelangelo in the 16th century.  ",
                     images: "",
                 },
                 {
                     name: "Testaccio Market",
-                    description: "Rome’s culinary traditions are rooted in the Testaccio neighbourhood, making it an essential stop for gourmands and intrepid diners. The area once housed the largest slaughterhouse in Europe, and employees were usually paid in leftover animal parts (affectionately referred to as the “quinto quarto,” or fifth quarter). One of the best places to sample Rome’s diverse cuisine and excellent street food is at the Testaccio Market, a luminous and contemporary building filled with tantalizing stands that serve everything from artichoke sandwiches and tripe stews to freshly-cooked pasta and craft beers.",
+                    description: "Rome’s culinary traditions are rooted in the Testaccio neighbourhood, making it an essential stop for gourmands and intrepid diners. ",
                     images: "",
                 },
                 {
                     name: "Centrale Montemartini",
-                    description: "Once a state-of-the-art power station, the early 20th-century Centrale Montemartini was chosen in the late 1990s to house part of the collection of the Capitoline Museums. Ancient statues are juxtaposed with vintage machinery in the industrial setting. fauns and Minervas, Bacchus revellers and Apollos are all surprisingly at home against the thermoelectric equipment. Highlights include incredibly detailed mosaics depicting marine themes, a spectacular early fourth-century mosaic depicting a hunting scene and the giant head and foot of a goddess found at Largo Argentina.",
+                    description: "Once a state-of-the-art power station, the early 20th-century Centrale Montemartini was chosen in the late 1990s to house part of the collection of the Capitoline Museums. Ancient statues are juxtaposed with vintage machinery in the industrial setting.",
                     images: "",
                 },
             ]
@@ -120,23 +120,23 @@ export default {
             },
             activities: [
                 {
-                    name: "Ride the iconic Manly Ferry",
-                    description: "While the motors chug soothingly, enjoy the scenery of Sydney Harbour as it glides by, taking you past the bridge, Sydney Opera House, Taronga Zoo and harbourside beaches such as Shark Beach and Camp Cove out to one of the city’s most popular beachside suburbs, great for bars, restaurants, shopping and snorkelling.",
+                    name: "Manly Ferry",
+                    description: "While the motors chug soothingly, enjoy the scenery of Sydney Harbour as it glides by, taking you past the bridge, Sydney Opera House, Taronga Zoo and harbourside beaches such as Shark Beach and Camp Cove out to one of the city’s most popular beachside suburbs",
                     images: "",
                 },
                 {
-                    name: "Climb Sydney Harbour Bridge",
-                    description: "Yes it's pretty spenno, and yes it's very touristy (you know, back when we had tourists), but it really is a breathtaking sight, beholding the Sydney Harbour in all its majesty. If you're short on time, the express climb is a little shorter and takes you up the inside structure so that you are surrounded by hand-riveted steel and feel a little like you’re inside the ribs of a metal skeleton. ",
+                    name: "Sydney Harbour Bridge",
+                    description: " The express climb is a little shorter and takes you up the inside structure so that you are surrounded by hand-riveted steel and feel a little like you’re inside the ribs of a metal skeleton. ",
                     images: "",
                 },
                 {
                     name: "Wattamolla Beach",
-                    description: "Deep within the Royal National Park is a sandy oasis that has to be seen to be believed. You can take a swim in the emerald waters of the creek-fed lagoon, which is also a great spot for snorkeling, or simply lay back against one of the cabbage tree palms with a good book. If you’re a budding shutterbug, the Wattamolla Waterfall may well rank as one of the most photogenic natural wonders anywhere in the Greater Sydney region and that's really saying something.",
+                    description: "Deep within the Royal National Park is a sandy oasis that has to be seen to be believed. You can take a swim in the emerald waters of the creek-fed lagoon, which is also a great spot for snorkeling, or simply lay back against one of the cabbage tree palms with a good book.",
                     images: "",
                 },
                 {
                     name: "Museum of Contemporary Art",
-                    description: "The harbourside MCA is the go-to venue for cutting-edge art on a local and international level. .The Museum of Contemporary Art often hosts exhibitions by huge international artists, including heavyweights like Anish Kapoor, Yoko Ono and Grayson Perry. The MCA has a rooftop café and sculpture terrace with superb views of Circular Quay, including the Harbour Bridge and Sydney Opera House. ",
+                    description: "The harbourside MCA is the go-to venue for cutting-edge art on a local and international level. .The Museum of Contemporary Art often hosts exhibitions by huge international artists, including heavyweights like Anish Kapoor, Yoko Ono and Grayson Perry.",
                     images: "",
                 },
             ]
@@ -144,7 +144,7 @@ export default {
 
         thailand: {
             tourist: "Bangkok",
-            country: "Japan",
+            country: "Thailand",
             description: 'The city is known for its street life and cultural landmarks, as well as its red-light districts. The Grand Palace and Buddhist temples including Wat Arun and Wat Pho stand in contrast with other tourist attractions such as the nightlife scenes of Khaosan Road and Patpong. ',
             background: "",
             about: {
@@ -156,22 +156,22 @@ export default {
             activities: [
                 {
                     name: "Wat Pho",
-                    description: "There’s more to Wat Pho than its gigantic reclining Buddha and traditional Thai massage. This iconic temple harbours a fascinating collection of murals, inscriptions and sculptures that delve into various subjects, from warfare to astronomy to archaeology. The vast temple complex also contains a landscaped garden with stone sculptures, stupas adorned with glazed porcelain, a souvenir shop, and the College of Traditional Medicine. ",
+                    description: "There’s more to Wat Pho than its gigantic reclining Buddha and traditional Thai massage. This iconic temple harbours a fascinating collection of murals, inscriptions and sculptures that delve into various subjects, from warfare to astronomy to archaeology.",
                     images: "",
                 },
                 {
                     name: "Chinatown (Yaowarat) ",
-                    description: "Bangkok's Chinatown is a colourful, exotic and pleasingly chaotic area, packed with market stalls and probably the highest concentration of gold shops in the city. During major festivities like Chinese New Year and the Vegetarian Festival, the dynamism and spirit of celebration spread across town like wildfire, and if you happen to be around, don’t miss an opportunity to witness Chinatown Bangkok at its best.",
+                    description: "Bangkok's Chinatown is a colourful, exotic and pleasingly chaotic area, packed with market stalls and probably the highest concentration of gold shops in the city.",
                     images: "",
                 },
                 {
                     name: "Sky Bar",
-                    description: "Sky Bar boasts sweeping views from the top of  State Tower, one of Bangkok's tallest buildings. With its highly visible golden dome, the bar is tucked away in a corner of the award-winning, open-air Sirocco restaurant on the 64th floor. Sky Bar's counter is illuminated and changes colour every few minutes.",
+                    description: "Sky Bar boasts sweeping views from the top of  State Tower, one of Bangkok's tallest buildings. With its highly visible golden dome, the bar is tucked away in a corner of the award-winning, open-air Sirocco restaurant on the 64th floor.",
                     images: "",
                 },
                 {
                     name: "floating market",
-                    description: "The pioneer of Bangkok floating markets, Damnoen Saduak continues to offer an authentic experience despite its increasingly touristy atmosphere. Imagine dozens of wooden row boats floating by, each laden to the brim with farm-fresh fruits, vegetables or flowers. Food vendors fill their vessels with cauldrons and charcoal grills, ready to whip up a bowl of ‘boat noodle’ or seafood skewers upon request. The market is around 100 km southwest of Bangkok.",
+                    description: "The pioneer of Bangkok floating markets, Damnoen Saduak continues to offer an authentic experience despite its increasingly touristy atmosphere. Imagine dozens of wooden row boats floating by, each laden to the brim with farm-fresh fruits, vegetables or flowers. ",
                     images: "",
                 },
             ]
@@ -191,22 +191,22 @@ export default {
             activities: [
                 {
                     name: "Swimming",
-                    description: "The offGrindavík is home to one of the best pools in South Iceland. The Grindavík Swimming Pool has a 25-meter pool, hot tubs, tanning beds, a water slide, children’s pool, and fitness center.icial climbing season of Mt Fuji is only during summer (from July to September), and thousands of people visit there during the season. Various trails are available and climbing takes around 4–8 hours one way. Check out the link below for more details about Mt Fuji climbing!",
+                    description: "The offGrindavík is home to one of the best pools in South Iceland. The Grindavík Swimming Pool has a 25-meter pool, hot tubs, tanning beds, a water slide, children’s pool, and fitness center.",
                     images: "",
                 },
                 {
                     name: "Camping",
-                    description: "Tourists can camp from mid-May to mid-September at Grindavík’s by the harbor. A popular campsite, Grindavík’s location offers laundry facilities, a common eating area, and a playground for children that has swings and a spider net for climbing. The campsite accommodates tents, RVs, and campers, with access to hookups. The grassy field is an open space with beautiful views of mountains. There’s also a paved entrance to the campsite and a large parking area. Close by is an area to empty camper port-a-potties.",
+                    description: "Tourists can camp from mid-May to mid-September at Grindavík’s by the harbor. A popular campsite, Grindavík’s location offers laundry facilities, a common eating area, and a playground for children that has swings and a spider net for climbing. ",
                     images: "",
                 },
                 {
                     name: "Biking",
-                    description: "Reykjanes has several well-maintained trails perfect for cycling. Arctic Adventures operates a popular mountain biking tour that departs from Reykjavík by bus. Biking begins at the Blue Lagoon. The easy bike ride takes tourists on trails that run along volcanic craters, rugged lava fields, and bubbling hot springs throughout the peninsula. ",
+                    description: "Reykjanes has several well-maintained trails perfect for cycling. Arctic Adventures operates a popular mountain biking tour that departs from Reykjavík by bus. Biking begins at the Blue Lagoon.  ",
                     images: "",
                 },
                 {
                     name: "Golf",
-                    description: "Just four kilometers southwest from the Blue Lagoon, Húsatóftir Golf Course is an 18-hole golf course where visitors can golf from late May to early September, depending on the weather. The course sits on a scenic part of the southern part of the country with picturesque views of the landscape. However, the course can be busy with locals during the high season of June-July. Be sure to call ahead for a tee time.",
+                    description: "Just four kilometers southwest from the Blue Lagoon, Húsatóftir Golf Course is an 18-hole golf course where visitors can golf from late May to early September, depending on the weather. ",
                     images: "",
                 },
             ]
@@ -220,7 +220,7 @@ export default {
             about: {
                 explore: "Simplicity marks the origin of Banff Canada’s first national park. In 1883, on the slopes of the Canadian Rocky Mountains, three railway workers discovered a natural hot spring, and from there the park was born. Nowadays, Banff is one of the world’s premier destinations, spanning a region of unparalleled majestic mountain scenery. Every year, millions of visitors make the pilgrimage to Banff to take in its stunning views and arsenal of activities",
                 link: "",
-                history: "",
+                history: 'Indigenous peoples have lived in this area for well over 10,000 years and their knowledge of the geography undoubtedly benefited European settlement of the mountain community. In the early 1880s, three Canadian Pacific Railway workers building the nation’s railway saw the potential of the natural hot springs. The president of the Canadian Pacific Railway named the area Banff after his birthplace of Banffshire, Scotland, and the Banff Springs Hotel quickly became one of the railway’s most prized properties. The natural beauty of Banff’s surrounding lakes and mountains made it Canada’s first National Park and the world’s third national park refuge, and part of the Canadian Rocky Mountain Parks UNESCO World Heritage Site. More than 4 million people from around the world now visit Banff National Park every year. While the Town of Banff had been in existence for a century to serve visitors, it was officially incorporated in 1990, making it Canada’s first municipality within a National Park.',
                 picture: "",
             },
             activities: [
@@ -236,12 +236,12 @@ export default {
                 },
                 {
                     name: "Banff gondola",
-                    description: "Lake Tanuki (田貫湖) is another stunning lake located near Mt Fuji. Lake Tanuki is in Shizuoka Prefecture, on the west of Mt Fuji. There are several hotels, campgrounds, outdoor activities available. Lake Tanuki is less touristy than the Fuji Five Lakes, yet offers the superb view of Mt Fuji.",
+                    description: "For some of the most spectacular views in Banff, you won’t do better than a ride to the summit of Sulphur Mountain on the thrilling Banff Gondola.",
                     images: "",
                 },
                 {
                     name: "Lakeside activities",
-                    description: "Banff and Jasper have many beautiful alpine lakes that offer plenty of activities including fishing, canoeing, kayaking and swimming. And in the winter, the frozen Pyramid Lake makes for one of the most picturesque spots to snowshoe, cross-country ski, ice skate or enjoy a horse drawn sleigh ride.",
+                    description: "Banff and Jasper have many beautiful alpine lakes that offer plenty of activities including fishing, canoeing, kayaking and swimming.",
                     images: "",
                 },
             ]
@@ -261,22 +261,22 @@ export default {
             activities: [
                 {
                     name: "Pláka",
-                    description: "If you are in Athens, you should definitely visit the Plaka district. This is one of the nicest neighborhoods in Athens with terraces and souvenir shops. Despite the fact that this district is very touristy, it does have an authentic atmosphere and colorful appearance. In this district there are several monuments to visit, but of course you can also walk through the small streets and absorb the atmosphere. It is always busy here and there is always something going on.",
+                    description: "If you are in Athens, you should definitely visit the Plaka district. This is one of the nicest neighborhoods in Athens with terraces and souvenir shops. Despite the fact that this district is very touristy, it does have an authentic atmosphere and colorful appearance.",
                     images: "",
                 },
                 {
                     name: "Central market",
-                    description: "Near Monastiráki you will find the Varvakeios market halls. At this large market you can buy everything, such as vegetables, meat, fish, fruit and wine. You can taste and buy authentic Greek delicacies here. It is a busy market with a lively atmosphere. You can also buy food and other items from many different cultures. Even if you don't want to buy anything, it’s even worth a visit.",
+                    description: "Near Monastiráki you will find the Varvakeios market halls. At this large market you can buy everything, such as vegetables, meat, fish, fruit and wine. You can taste and buy authentic Greek delicacies here. It is a busy market with a lively atmosphere.",
                     images: "",
                 },
                 {
                     name: "Piraeus",
-                    description: "Piraeus is a port city that is part of Athens. Here you will find one of the most important passenger ports in all of Europe. In this harbor you will see many ferries that take passengers to the various islands in the area. Piraeus is definitely a must for boat lovers. You can visit an exclusive marina to admire the yachts. In this town you will also find two museums that are dedicated to the history of the port. This city is also very pleasant to walk through or grab a drink on a terrace.",
+                    description: "Piraeus is a port city that is part of Athens. Here you will find one of the most important passenger ports in all of Europe. In this harbor you will see many ferries that take passengers to the various islands in the area. ",
                     images: "",
                 },
                 {
                     name: "National Archaeological Museum",
-                    description: "Athens has a lot of museums, but the National Archaeological Museum has one of the largest and most comprehensive collections in all of Greece. If you want to visit one archaeological museum, it is best to choose this one. You will find a collection of Greek art here and a few well-known and rare objects. For example, you will find the mechanism of Antikythera and the mask of Agamemnon here. More info 'National Archaeological Museum'.",
+                    description: "Athens has a lot of museums, but the National Archaeological Museum has one of the largest and most comprehensive collections in all of Greece. If you want to visit one archaeological museum, it is best to choose this one.",
                     images: "",
                 },
             ]
@@ -296,22 +296,22 @@ export default {
             activities: [
                 {
                     name: "Camel Tour",
-                    description: "Tourists often ask Where can I ride a camel in Egypt? Can you ride a camel in Cairo? And the answer is yes, you can ride a camel in Egypt at the Pyramids! There are several options to do the activity. You can hire a camel for a short 10 to 15 minutes ride around a pyramid with some photo shoots and bargain with the Bedouin guy yourself or book a Camel half day tour to the pyramids with a professional Egyptologist English speaking guide.",
-                    images: "",
-                },
-                {
-                    name: "Horse Riding",
-                    description: "ATV activities in Cairo Egypt are widely spread at the Pyramids of Giza. This kind of tour is very popular between locals and tourists alike. You do not need to know how to drive a bike, after some short instructions you will be able to handle your 4x4 quad very confidently. These custom made buggies are capable of whisking over the dunes at  a speed of 50 mph taking you to the most remote and amazing parts of Giza plateau most travelers to Egypt will never get to see.",
+                    description: "Tourists often ask Where can I ride a camel in Egypt? Can you ride a camel in Cairo? And the answer is yes, you can ride a camel in Egypt at the Pyramids! There are several options to do the activity.",
                     images: "",
                 },
                 {
                     name: "Quad Bike",
-                    description: "Lake Tanuki (田貫湖) is another stunning lake located near Mt Fuji. Lake Tanuki is in Shizuoka Prefecture, on the west of Mt Fuji. There are several hotels, campgrounds, outdoor activities available. Lake Tanuki is less touristy than the Fuji Five Lakes, yet offers the superb view of Mt Fuji.",
+                    description: "ATV activities in Cairo Egypt are widely spread at the Pyramids of Giza. This kind of tour is very popular between locals and tourists alike. You do not need to know how to drive a bike, after some short instructions you will be able to handle your 4x4 quad very confidently. ",
+                    images: "",
+                },
+                {
+                    name: "Horse Riding",
+                    description: "Wishing to stretch out your Giza pyramid experience beyond the touristy camel rides try a horse riding tour into the desert, often called Sahara. Not many tourists can get the experience of riding horses past the pyramids, with splendid views over the three pyramids.",
                     images: "",
                 },
                 {
                     name: "Pyramids Sound and Light show Tour",
-                    description: "Staying overnight in Cairo gives you a great chance to see pyramids at night. Although the site closing time is 5 pm, you still can visit the pyramids at night. Go on Sound & Light show tour at the Pyramids to participate in a great event. Lighted in different colours, with special sound effects the story of pharaohs and ancient Egypt will be told to you by a narrator on 10 different languages.",
+                    description: "Staying overnight in Cairo gives you a great chance to see pyramids at night. Although the site closing time is 5 pm, you still can visit the pyramids at night. Go on Sound & Light show tour at the Pyramids to participate in a great event.",
                     images: "",
                 },
             ]
@@ -331,22 +331,22 @@ export default {
             activities: [
                 {
                     name: "Safari Lodges",
-                    description: "For those simply looking to stay at Kruger National Park, there are a variety of private safari lodges. They range from lodges that hold nothing back, providing travelers with the most extravagant, family-accommodating, or romantically intimate retreats to more simple, budget-friendly lodges that are great for young or small group travelers.",
+                    description: "They range from lodges that hold nothing back, providing travelers with the most extravagant, family-accommodating, or romantically intimate retreats to more simple, budget-friendly lodges that are great for young or small group travelers.",
                     images: "",
                 },
                 {
                     name: "Romantic Safaris",
-                    description: "Living out a safari romance may seem like something from Hollywood fiction or classic literature, but it is a reality at Kruger National Park. Couples traveling together through the wilderness of Africa while enjoying these sights and wonders together. These safaris combine the close intimacy of nature with modern luxuries, giving lovers and honeymooners alike a chance to partake in spa treatments, champagne baths, or fireside romance while on a safari through Africa.",
+                    description: "Living out a safari romance may seem like something from Hollywood fiction or classic literature, but it is a reality at Kruger National Park. ",
                     images: "",
                 },
                 {
-                    name: "Fully Guided Siyabona Africa Safaris",
+                    name: "Siyabona Africa Safaris",
                     description: "For travelers who enjoy a bit of education while on an adventure, these fully guided tours offered by Kruger National Park are led by an experienced guide who will ensure that travelers understand and know everything there is to know about what they encounter while out on safari.",
                     images: "",
                 },
                 {
                     name: "Popular Safaris",
-                    description: "Some of Kruger National Park’s most popular safari packages included an abundance of game viewing opportunities. It is the animals that truly bring travelers to the park, so these safaris really emphasize these options.",
+                    description: "Some of Kruger National Park’s most popular safari packages included an abundance of game viewing opportunities. ",
                     images: "",
                 },
             ]

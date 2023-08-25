@@ -1,16 +1,5 @@
-// loadhtml()
-// function loadhtml() {
-//     var xhttp = new XMLHttpRequest();
-//     xhttp.onreadystatechange = function () {
-//         if (this.readyState == 4 && this.status == 200) {
-//             document.getElementById("container").innerHTML =
-//                 this.responseText;
-//         }
-//     };
-//     xhttp.open("GET", "../pages/homepage.html", true);
-//     xhttp.send();
-// }
 import data from "/resources/data/dataset.index.js";
+
 const nextbutton = document.getElementById('nextbutton');
 const prevbutton = document.getElementById('prevbutton');
 const cards = document.querySelectorAll('#card');
@@ -24,7 +13,7 @@ const cardbutton = document.getElementById('card');
 const display = document.querySelector('.display')
 const aboutcontent = document.getElementById('about-content');
 const backbutton = document.querySelector('.back-button');
-
+const con = document.querySelector('.container')
 //index
 const subtextindex = document.querySelector('.content-smalltitle');
 const titleindex = document.querySelector('.content-title');
@@ -49,6 +38,12 @@ const firstcountry = "japan";
 changehomepage(firstcountry)
 
 function changehomepage(country) {
+
+    if(country == "canada"){
+        con.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+    }else{
+        con.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
+    }
 
     const coun = data.countries[country];
     const url = '../resources/images/About';
@@ -101,7 +96,6 @@ function carousell() {
             card.classList.add("active");
             main.style.backgroundImage = `url('${card.src}')`;
             changehomepage(country)
-
         } else {
             card.classList.remove("active");
         }
