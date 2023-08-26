@@ -1,4 +1,4 @@
-import data from "../resources/data/dataset.index.js";
+import data from "./resources/data/dataset.index.js";
 
 const nextbutton = document.getElementById('nextbutton');
 const prevbutton = document.getElementById('prevbutton');
